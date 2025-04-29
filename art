@@ -1,0 +1,34 @@
+Algoritmo "Meu primeiro programa"
+// 
+//  
+// Descrição   :
+// Autor(a)    : art
+// Data atual  : 29/04/2025
+Var
+// Seção de Declarações das variáveis 
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+           escreval("COMO FAZER UM SANDUICHE")
+           
+  escreval("1-- Abra o pacote que contém o pães")
+  
+ escreval("2-- retire um par do pacote de pães")
+ 
+  escreval("3-- separe esses pães deixando eles um de cada lado")
+  
+   escreval("4-- após isso, pegue uma faca de serra com os dentes para baixo")
+   
+    escreval("5-- coloque a faca dentro do pote de manteiga")
+    
+     escreval("6-- passe a faca  dentro do pote de manteiga ")
+     
+      escreval("7-- após o uso, tire a faca juntamente com a manteiga")
+      
+       escreval("9-- passe ela em somente, um dos pães")
+       
+        escreval("10--pegue a outra parte do pão e colouque a face do pão em cima da outra que tem a mantega")
+        
+
+Fimalgoritmo
