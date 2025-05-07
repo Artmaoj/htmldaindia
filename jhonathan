@@ -1,0 +1,9 @@
+escreval("Escreva 3 números")
+      leia(a1,a2,a3)
+
+      escreval(a1+a2)
+      se (a1+a2<a3) entao
+      escreval( "A mais B é menor que C")
+      senão
+      escreval( "A menos B é maior que C")
+      fimse
