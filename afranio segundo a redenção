@@ -1,0 +1,38 @@
+ Escreval ("CENTRAL DO ALUNO")
+    escreval ("----------------------------------------------------------------")
+    Escreval ("Nome do aluno(a)")
+    leia (nome)
+    
+
+     escreval("SELECIONE UMA OPÇÃO:")
+     escolha  opcao
+             caso  opcao
+                  escreval ("1- Cadastrar")
+     fimescolha
+
+     escolha opcao2
+               caso opcao2
+                    escreval("2-Consultar")
+     fimescolha
+     
+         escolha opcao3
+             caso opcao3
+                   escreval("3-Sair")
+     fimescolha
+     
+       escreval(" ")
+       leia(a)
+       limpatela (a)
+
+       se(a=1) entao
+       escreval("Você está castrado")
+       fimse
+       
+      se (a=2) entao
+        escreval (" Muito trabalho colocar coisa aq, mas ta funcionando")
+        fimse
+
+
+        se (a=3) entao
+        fimse
+       
