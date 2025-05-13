@@ -1,0 +1,18 @@
+aleatorio on
+
+leia (a)
+limpatela (a)
+aleatorio off
+       leia (b)
+       escreval (" ")
+se (a=b) entao
+
+escreval ("voce esta certo")
+
+senao
+
+escreval ("voce esta errado but, tenta de novo")
+
+fimse
+
+Fimalgoritmo
