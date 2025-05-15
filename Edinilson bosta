@@ -1,0 +1,20 @@
+Var
+// Seção de Declarações das variáveis 
+mv1 : vetor [0..10] de real
+a : inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   para a de 0 ate 10 faca
+   leia(mv1[a])
+   fimpara
+
+   para a de 0 ate 10 faca
+   se mv1[a] mod 2<>0 entao
+   escreval ("seu número é impar: ",mv1[a])
+   senao
+   escreval ("seu número é par: ",mv1[a])
+   
+   fimse
+   fimpara
+
+Fimalgoritmo
