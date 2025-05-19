@@ -1,0 +1,13 @@
+para i de 1 ate 2 faca
+   para j de 1 ate 2 faca
+             escreva("Digite um numero [",i , ",", j,"]:")
+             leia(afranio[i,j])
+             fimpara
+   fimpara
+escreval("Matriz:")
+      para i de 1 ate 2 faca
+      para j de 1 ate 2 faca c
+         escreva(afranio[i,j], " ")
+      fimpara
+      escreval()
+   fimpara
