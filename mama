@@ -11,3 +11,40 @@ escreval("Matriz:")
       fimpara
       escreval()
    fimpara
+escreval("Matriz:")
+      para i de 1 ate 2 faca
+      para j de 1 ate 2 faca
+         escreva(afranio[i,j], " ")
+      fimpara
+      escreval()
+   fimpara
+para i de 1 ate 2 faca
+      para j de 1 ate 2 faca
+         se afranio[i,j] mod 2 = 0 entao
+            escreval("Número par")
+            cont_par <- cont_par + 1
+         senao
+            escreval("Número ímpar")
+            cont_impar <- cont_impar + 1
+         fimse
+      fimpara
+   fimpara
+   para i de 1 ate 2 faca
+      para j de 1 ate 2 faca
+         se afranio[i,j] > 0 entao
+            escreval("Número positivo")
+            cont_positivo <- cont_positivo + 1
+         senao
+            escreval("Número negativo")
+            cont_negativo <- cont_negativo + 1
+         fimse
+      fimpara
+   fimpara
+
+escreval()
+   escreval("Quantidade de números pares: ", cont_par)
+   escreval("Quantidade de números ímpares: ", cont_impar)
+   escreval("Quantidade de números positivos: ", cont_positivo)
+   escreval("Quantidade de números negativos: ", cont_negativo)
+
+fimalgoritmo
