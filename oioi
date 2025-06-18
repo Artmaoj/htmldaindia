@@ -1,0 +1,61 @@
+-- phpMyAdmin SQL Dump
+-- version 5.0.4
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Tempo de geração: 18-Jun-2025 às 22:22
+-- Versão do servidor: 10.4.16-MariaDB
+-- versão do PHP: 7.4.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Banco de dados: `maks`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `viloes`
+--
+
+CREATE TABLE `viloes` (
+  `NOME` text NOT NULL,
+  `AUTORES` text NOT NULL,
+  `GENERO` text DEFAULT NULL,
+  `ISBN` text DEFAULT NULL,
+  `SESSAO` text DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `viloes`
+--
+
+INSERT INTO `viloes` (`NOME`, `AUTORES`, `GENERO`, `ISBN`, `SESSAO`) VALUES
+('Mad max', 'George Miller', 'Ação', '0', 'Sala 2'),
+('Era uma vez no oeste', 'Sergio Leone', 'Velho-Oeste', '1', 'sessão 2'),
+('Os Imperdoáveis', 'Clint Eastwood', 'Velho-Oeste', '2', 'sessão 2'),
+('Django Livre', 'Quentin Tarantino', 'Velho-Oeste', '3', 'sessão 2');
+
+--
+-- Índices para tabelas despejadas
+--
+
+--
+-- Índices para tabela `viloes`
+--
+ALTER TABLE `viloes`
+  ADD UNIQUE KEY `ISBN` (`ISBN`) USING HASH;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
